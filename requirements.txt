@@ -163,7 +163,7 @@ termcolor==1.1.0
 terminado==0.12.1
 testpath==0.5.0
 tomli==2.0.1
-tornado==6.1
+tornado==6.5
 tqdm==4.62.3
 traitlets==5.1.1
 typing_extensions==4.3.0
