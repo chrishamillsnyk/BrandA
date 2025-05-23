@@ -1,0 +1,26 @@
+name: "Snyk OpenSource Scan  "
+on: push
+
+jobs:
+  Pipeline-Job:
+    # Configure Environment
+    name: 'Snyk OpenSource Scan'
+    runs-on: ubuntu-latest
+    env: 
+      SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
+       
+    steps:
+    # Checkout Code
+    - name: Checkout Code
+      uses: actions/checkout@v1
+
+    # Install and Authenticate to Snyk
+    - name: Install Snyk & Authenticate
+      run: |
+         sudo npm install -g snyk
+         snyk auth ${{ secrets.SNYK_TOKEN }}
+    # Run Snyk OS
+    - name: Run Snyk OpenSource
+      run: |
+         snyk monitor --org=6b27b0b3-702a-4777-90d0-300f4651a1ca
+      continue-on-error: true
