@@ -43,7 +43,7 @@ deep-merge==0.0.4
 defusedxml==0.7.1
 detect-secrets==1.1.0
 distlib==0.3.2
-Django==3.2.15
+Django==4.2.22
 django-debug-toolbar==1.4
 docker==5.0.2
 dockerfile-parse==1.2.0
@@ -84,7 +84,7 @@ junit-xml==1.9
 jupyter==1.0.0
 jupyter-client==7.1.0
 jupyter-console==6.4.0
-jupyter-core==4.9.1
+jupyter-core==5.8.0
 jupyter-server==1.15.3
 jupyterlab==3.3.2
 jupyterlab-pygments==0.1.2
