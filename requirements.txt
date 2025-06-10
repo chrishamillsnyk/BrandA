@@ -140,7 +140,7 @@ pyzmq==22.3.0
 qtconsole==5.2.2
 QtPy==2.0.0
 ratelim==0.1.6
-requests==2.27.1
+requests==2.32.4
 rsa==3.4.2
 ruamel.yaml==0.17.21
 ruamel.yaml.clib==0.2.6
