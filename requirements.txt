@@ -43,7 +43,7 @@ deep-merge==0.0.4
 defusedxml==0.7.1
 detect-secrets==1.1.0
 distlib==0.3.2
-Django==3.2.15
+Django==4.2.20
 django-debug-toolbar==1.4
 docker==5.0.2
 dockerfile-parse==1.2.0
